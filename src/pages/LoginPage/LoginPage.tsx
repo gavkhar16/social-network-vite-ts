@@ -2,7 +2,8 @@ import "./LoginPage.scss";
 
 export const LoginPage = () => {
   return (
-    <div className="LoginPage">
+   <div className="container">
+     <div className="LoginPage">
       <h1>Авторизация</h1>
       <form action="#">
         <input type="tel" placeholder="Номер телефона" />
@@ -31,5 +32,6 @@ export const LoginPage = () => {
         </div>
       </div>
     </div>
+   </div>
   );
 };
